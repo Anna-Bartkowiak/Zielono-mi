@@ -102,7 +102,7 @@ header > nav ul > li >a:hover {
 	margin-top: 35vh;
 	padding: 0 20px;
 	color: #c3bebe;
-	flex-basis: <length> | auto; /* default auto */
+	flex-basis: auto; /* default auto */
 }
 
 h1 {
@@ -324,7 +324,7 @@ button {
 }
 
 .icon-btn {
-	border: 0;
+/*	border: 0;*/
 	border-radius: 50%;
 	float: left;
 	width: 40px;
@@ -504,6 +504,10 @@ footer > .row.container > .col-m-4 .col-m-12 {
 
 	.layer i.fa {
   		opacity: 1;
+	}
+	
+	.gallery > .row div > i {
+		font-size: 0.8em;
 	}
 
 	.icon-btn:hover {
